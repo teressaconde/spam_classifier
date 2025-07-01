@@ -20,4 +20,4 @@ if st.button("Classify"):
         if prediction == "spam":
             st.error(f"Prediction: **SPAM** ({prediction_prob:.2%} confidence)")
         else: 
-            st.success(f"Prediction: **HAM** ({prediction_prob:.2%} confidenc
+            st.success(f"Prediction: **HAM** ({prediction_prob:.2%} confidence)")
